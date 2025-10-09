@@ -1,0 +1,31 @@
+button:hover {
+    background-color: blue;
+    color: white;
+}
+input:focus{
+    outline: 2px solid red
+  /*  background-color: red;*/
+}
+p:first-child {
+    font-weight: bold;
+}
+li:last-child {
+    color: red;
+}
+
+/*Linhas pares tabela*/
+tr:nth-child(even) {
+    background-color: #bbb;
+}
+tr:nth-child(odd) {
+    background-color: white;
+}
+table {
+    border-collapse: collapse;
+    width: 50%;
+}
+td, th {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
